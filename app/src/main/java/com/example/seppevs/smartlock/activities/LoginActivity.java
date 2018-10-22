@@ -17,6 +17,7 @@ import android.widget.Toast;
 import com.example.seppevs.smartlock.R;
 import com.example.seppevs.smartlock.helpers.InputValidation;
 import com.example.seppevs.smartlock.sql.DatabaseHelper;
+import com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
     private final AppCompatActivity activity = LoginActivity.this;

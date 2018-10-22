@@ -17,6 +17,7 @@ import com.example.seppevs.smartlock.R;
 import com.example.seppevs.smartlock.helpers.InputValidation;
 import com.example.seppevs.smartlock.model.User;
 import com.example.seppevs.smartlock.sql.DatabaseHelper;
+import com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText;
 
 public class RegisterActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -174,7 +175,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
 
         } else {
             emptyInputEditText();
-            Toast.makeText(getBaseContext(), "Email Already Exists", Toast.LENGTH_LONG).show();
+            Toast.makeText(getBaseContext(), getString(R.string.error_email_exists), Toast.LENGTH_LONG).show();
         }
 
 
