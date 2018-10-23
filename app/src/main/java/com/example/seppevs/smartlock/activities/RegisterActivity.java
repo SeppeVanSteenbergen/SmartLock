@@ -17,7 +17,6 @@ import com.example.seppevs.smartlock.R;
 import com.example.seppevs.smartlock.helpers.InputValidation;
 import com.example.seppevs.smartlock.model.User;
 import com.example.seppevs.smartlock.sql.DatabaseHelper;
-import com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText;
 
 public class RegisterActivity extends AppCompatActivity implements View.OnClickListener {
 
